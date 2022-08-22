@@ -14,8 +14,10 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 /* Custom styles */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', sans-serif;
+  background-color: #F1F5F9;
   color: #181818;
+  font-family: 'Lato', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
 }
 
 header {
@@ -33,7 +35,7 @@ header .constrain {
 }
 
 header .logo {
-  height: 2.4rem;
+  height: 8rem;
 }
 
 header .logo img {
@@ -52,6 +54,12 @@ header h1 {
   }
 }
 
+blockquote {
+  color: #4e4e4e;
+  font-size: 2rem;
+  font-style: italic;
+}
+
 .organizations img {
   display: block;
   height: 8rem;
@@ -68,7 +76,7 @@ footer {
 /* Helpers */
 
 .blue-bg {
-  background-image: linear-gradient(45deg, #00A3FF, #003789);
+  background-image: linear-gradient(45deg, #0284C7, #312E81);
   color: #ffffff;
 }
 
@@ -79,6 +87,12 @@ footer {
 
 .blue-bg a:active, .blue-bg a:focus, .blue-bg a:hover {
   text-decoration: underline;
+}
+
+.darken {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding-top: 2.5rem;
 }
 
 .center {
